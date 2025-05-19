@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Traditional Attire: Vakul and Kanayi - Ivatan Culture</title>
+  <link rel="stylesheet" href="website.css" />
+  <style>
+    :root {
+      --font-body: 1rem;
+      --font-heading-main: 3rem;
+      --font-heading-sub: 2.2rem;
+      --font-link: 1.2rem;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f3f6fb;
+      color: #2e2e2e;
+      margin: 0;
+      padding: 0;
+      font-size: var(--font-body);
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      padding: 0 1rem;
+    }
+
+    header h1 {
+      font-family: 'Georgia', serif;
+      font-size: var(--font-heading-main);
+      color: #2e4b1e;
+    }
+
+    section {
+      background: #e6e9f8;
+      padding: 2rem 1rem;
+      border-top: 3px solid #4b5e1f;
+      border-bottom: 3px solid #4b5e1f;
+    }
+
+    section h2 {
+      font-size: var(--font-heading-sub);
+      color: #3a4a14;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .content-block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-bottom: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .content-block p {
+      flex: 1;
+      min-width: 250px;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1.5rem;
+      border-radius: 14px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+      font-size: var(--font-body);
+    }
+
+    .content-block img {
+      flex: 1;
+      min-width: 250px;
+      max-width: 450px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      object-fit: cover;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .back-link a {
+      font-size: var(--font-link);
+      text-decoration: none;
+      color: #5a3e2b;
+      background-color: #ffe4b5;
+      border: 3px dashed #c4a484;
+      padding: 0.8rem 1.6rem;
+      border-radius: 14px;
+      font-family: 'Times New Roman', serif;
+      box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .back-link a:hover {
+      background-color: #fff7d6;
+      transform: translateY(-5px);
+      box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content-block {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .content-block p,
+      .content-block img {
+        max-width: 100%;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section h2 {
+        font-size: 1.6rem;
+      }
+
+      .back-link a {
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <h1>Ivatan Culture and Heritage</h1>
+    </div>
+  </header>
+
+  <section>
+    <h2>Traditional Attire: Vakul and Kanayi</h2>
+
+    <div class="content-block">
+      <p>
+        <strong>Vakul</strong> is a traditional headgear made from vuyavuy palm fibers, worn by Ivatan women to shield themselves from the intense sun and rain while working in the fields. It reflects the Ivatans' deep relationship with nature and their ingenuity in using available materials.
+      </p>
+      <img src="images/attire1.jpg" alt="Ivatan woman wearing Vakul">
+    </div>
+
+    <div class="content-block">
+      <p>
+        The <strong>Kanayi</strong> is the male counterpart, often worn by Ivatan men during farming and fishing. It provides similar protection and represents the enduring practicality and cultural significance of Ivatan attire.
+      </p>
+      <img src="images/kanayi.jpg" alt="Ivatan man wearing Kanayi">
+    </div>
+
+    <div class="content-block">
+      <p>
+        These garments are not only functional but also emblematic of the Ivatan identity—resilient, resourceful, and closely tied to their environment. Today, vakul and kanayi are also worn during cultural festivals and heritage celebrations.
+      </p>
+      <img src="images/attire.jpg" alt="Ivatan traditional attire in cultural event">
+    </div>
+
+    <div class="back-link">
+      <a href="index.html">← Back to Home</a>
+    </div>
+  </section>
+</body>
+</html>
